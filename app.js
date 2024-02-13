@@ -5,3 +5,10 @@
  * 4.- Crea una función que muestre una alerta con el mensaje: "Yo amo JS" siempre que se presione el botón "Alerta".
  * 5.- Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
  */
+
+// 1.- Cambia el contenido de la etiqueta h1 con document.querySelector y asigna el siguiente texto: "Hora del Desafío".
+function funcionCambio(item, value) {
+    document.querySelector(item).innerHTML = value
+}
+
+funcionCambio("h1","Hora del Desafío");
